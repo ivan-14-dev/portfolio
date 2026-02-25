@@ -1,0 +1,81 @@
+# ============================================
+# GENERAL
+# ============================================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# BACKEND (Python)
+# ============================================
+# Virtual environment
+backend/venv/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution/packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables (keep .env.example for reference)
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# FRONTEND (Node.js/Vite/React)
+# ============================================
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables (keep .env.example for reference)
+.env.local
+.env.*.local
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# React build
+frontend/.vite/
+
+# ============================================
+# PLANS (Optional - remove if you want to track)
+# ============================================
+# plans/
+
+# ============================================
+# OTHER
+# ============================================
+# Email credentials backup (if any)
+*.pem
+*.key
