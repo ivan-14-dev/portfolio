@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CursorTrail from './components/CursorTrail';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <CursorTrail />
       <Navbar />
       <main>
         <Hero />
